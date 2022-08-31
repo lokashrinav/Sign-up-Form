@@ -1,0 +1,22 @@
+.space{
+    background: rgb(255, 255, 255, 0.3); 
+    display: flex;
+    color: black;
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 300px;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+
+
+.image-x-space{
+    width: 500px;
+    height: 100%;
+    display: flex;
+}
