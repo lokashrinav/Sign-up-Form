@@ -13,7 +13,7 @@
 <body>
     <div class="all">
         <div class="image-x-space">
-            <img src = "\Users\shriu\Desktop\CS-Projects\Sign-up-Form2\Sign-up-Form\alexander-andrews-fsH1KjbdjE8-unsplash.jpg" alt = "Hello" class = "response">
+            <img src = "..\Sign-up-Form\alexander-andrews-fsH1KjbdjE8-unsplash.jpg" alt = "Hello" class = "response">
             <div class="space"><div class="spant">Space</div></div>
         </div>
         <div class="area">
@@ -47,18 +47,22 @@
                     </div>
                     
                     <div class="left">
-                        <label for="password">Password: </label>
-                        <input type="password" name="password" id="password" required>
+                        <label for="pass">Password: </label>
+                        <input type="password" name="pass" onkeyup='check();' id="password" required>
                     </div>
-                    
                     <div class="left">
-                        <label for="confirm-password">Confirm password: </label>
-                        <input type="password" name="confirm-password" id="confirm-password" required>
+                        <label for="confirm_pass">Confirm password: </label>
+                        <input type="password" name="confirm_pass" onkeyup='check();' id="confirm_password" required>
+                        <span id='message'></span>
                     </div>
+
         </div>
         <div class="bottom">
-            <div class = "flames"><div class="Account"><div>Create Account</div></div></div>
+            <div class = "flames"><button class="Account submit_btn" name="submit" id="submit">Create Account</button></div>
         </div>
     </div>
+    <script src="confirm-password.js">
+
+    </script>
 </body>
 </html>
